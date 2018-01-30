@@ -1,0 +1,11 @@
+#TODO 1: Ask for user input
+age = int(input("How old are you?"))
+#TODO 2: Use conditionals to determine what the person is legally allowed to do
+if age >= 16:
+    print("You can drive!")
+    if age >=18:
+        print("You can vote!")
+    if age >= 21:
+        print("You can drink!")
+else:
+    print("Some day, kid...")
