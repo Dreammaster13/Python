@@ -1,0 +1,32 @@
+#For each click variable, calculate the temperature and print it as shown in the instructions
+#input = ("How many clicks?")
+click_1 = 0
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_1) % 50) + 40
+if temp == 40:
+    print("The temperature is 40")
+click_2 = 49
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_2) % 50) + 40
+if temp == 89:
+    print("The temperature is 89")
+click_3 = 74
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_3) % 50) + 40
+if temp == 64:
+    print("The temperature is 64")
+click_4 = 51
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_4) % 50) + 40
+if temp == 41:
+    print("The temperature is 41")
+click_5 = -1
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_5) % 50) + 40
+if temp == 89:
+    print("The temperature is 89")
+click_6 = 200
+# TODO calculate the temperature, and report it back to the user
+temp = (int(click_6) % 50) + 40
+if temp == 40:
+    print("The temperature is 40")
