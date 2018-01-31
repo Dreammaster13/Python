@@ -1,0 +1,24 @@
+import turtle                
+wn = turtle.Screen()  
+wn.bgcolor("purple")
+alex = turtle.Turtle()  
+bob = turtle.Turtle()
+alex.shape("turtle")
+bob.shape("line")
+alex.penup()
+bob.penup()
+alex.speed(0)
+bob.speed(0)
+for size in range(12):
+    alex.forward(120)
+    alex.stamp()
+    alex.forward(-120)
+    alex.right(30)
+for size in range(12):
+    bob.forward(100)
+    bob.stamp()
+    bob.forward(-100)
+    bob.right(30)
+wn.exitonclick()
+
+    
