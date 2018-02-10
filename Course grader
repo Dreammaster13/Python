@@ -1,0 +1,18 @@
+def course_grader(test_scores):
+    # Your code here
+    average = sum(test_scores)/len(test_scores)
+    # every ts (test score) must be greater than or equal to 50
+    if average >= 70 and all(ts >= 50 for ts in test_scores):
+        return "pass"
+    else: 
+        return "fail"
+
+def main():
+    print(course_grader([100,75,45]))     # "fail"
+    print(course_grader([100,70,85]))     # "pass"
+    print(course_grader([80,60,60]))      # "fail"
+    print(course_grader([80,80,90,30,80]))  # "fail"
+    print(course_grader([70,70,70,70,70]))  # "pass"
+
+if __name__ == "__main__":
+    main()
